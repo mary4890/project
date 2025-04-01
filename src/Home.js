@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import flowerImage from './flower.jpg'; // Ensure the correct path
 
 function Home() {
   return (
@@ -20,6 +21,12 @@ function Home() {
 
           <section className="mt-5">
             <h2 className="text-white">About Me</h2>
+            <img
+              src={flowerImage}
+              alt="Purple Flower"
+              className="img-fluid rounded-circle mb-3 pop-out-img"
+              width="200"
+            />
             <p className="text-white">
               Hi, my name is Mary Adeeko. I am 24 years old and currently starting my second semester at UNT, majoring in Information Technology.
               This is my first time creating a website.
